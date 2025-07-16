@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>UpekshaAmandi</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"/>
+  
+<!-- Other head elements -->
+  <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+  <script>
+    // Initialize EmailJS after the library loads
+    document.addEventListener('DOMContentLoaded', function() {
+      emailjs.init("vlIQmSPKSjsDCnHAy");
+    });
+  </script>
+
+  </head>
+  <body>
+    <header class="header">
+
+      <a href="#home" class="logo">
+        Upeksha<span>Amandi</span>
+      </a>
+
+      <i class="bx bx-menu" id="menu-icon"></i>
+
+      <nav class="navbar">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+
+      <button class="gradient-button"> Contact Me</button>
+
+    </header>
+
+    <section class="home" id="home">
+      <div class="home-content">
+        <h1>
+          Hi, It's <span>Amandi</span>
+        
+        </h1>
+        <h3>
+         I'm a <span class="role-text">Web Developer</span>
+        </h3>
+
+        <p>
+          I'm a passionate and driven Computer Science undergraduate specializing in full-stack and mobile app development. With a strong foundation in AI, machine learning, and modern web technologies, I love turning ideas into impactful, user-friendly digital products. I enjoy solving real-world problems through innovation and elegant design, and I'm always eager to learn and grow as a developer and designer.
+        </p>
+
+        <div class="social-icons">
+          <a href="#">
+            <i class="bx bxl-github"></i>
+          </a>
+          <a href="#">
+            <i class="bx bxl-linkedin-square"></i>
+          </a>
+          <a href="#">
+            <i class="bx bxl-instagram-alt"></i>
+          </a>
+          <a href="#">
+            <i class="bx bxl-facebook"></i>
+          </a>
+        </div>
+        <div class="btn-group">
+          <a href="#" class="btn">Download CV</a>
+          <a href="#contact" class="btn">Contact Me</a>
+        </div>
+      </div>
+
+      <div class="home-img">
+        <img src="image.jpg" alt="">
+      </div>
+    </section>
+
+    <section class="about" id="about">
+      <div class="about-img">
+        <img src="image.jpg" alt="">
+      </div>
+      <div class="about-content">
+        <h2>About<span>Me</span></h2>
+        <p>
+          I’m Upeksha Amandi, a Computer Science undergraduate with a passion for creating innovative and meaningful digital solutions. I specialize in full-stack and mobile development, combining technical skills in React, Flutter, and AI/ML to build user-centered applications. I love exploring new technologies, solving challenging problems, and turning creative ideas into reality. Beyond coding, I enjoy collaborating with diverse teams and continuously learning to stay at the forefront of the tech world.
+        </p>
+        <a href="#" class="btn">Read More</a>
+      </div>
+    </section>
+
+    <section class="services" id="services">
+      <h2 class="heading">Services</h2>
+
+      <div class="services-container">
+        <div class="services-box">
+          <div class="services-info">
+            <i class="bx bxl-figma"></i>
+            <h4>UI/UX Design</h4>
+            <p>
+              Expert UI/UX design services with proficiency in Figma prototyping. I create intuitive interfaces following HCI principles, 
+      validated through usability testing. My design process includes low/high-fidelity prototypes and iterative refinement 
+      based on user feedback, as demonstrated in my Interactive Furniture Selection application.
+          </div>
+        </div>
+      
+        <div class="services-box">
+          <div class="services-info">
+            <i class="bx bx-code"></i>
+            <h4>Frontend Developer</h4>
+            <p>
+              Specializing in React.js, Next.js, and Flutter development with responsive CSS implementations. 
+      I build dynamic user interfaces like the Library Management System and Campus Connect portal, 
+      focusing on seamless user experiences with real-time functionality and secure authentication flows.
+          </div>
+        </div>
+      
+        <div class="services-box">
+          <div class="services-info">
+            <i class="bx bx-code-curly"></i>
+            <h4>Backend Developer</h4>
+            <p>
+              Full-stack solutions with Node.js, Express, and MongoDB expertise. I develop robust APIs and database architectures, 
+      implementing features like JWT authentication, role-based access control, and WebSocket notifications - 
+      as showcased in my BookNest Library Management System with AWS S3 integration.
+            </p>
+          </div>
+        </div>
+
+        <div class="services-box">
+          <div class="services-info">
+            <i class="bx bx-mobile-alt"></i>
+            <h4>Mobile Development</h4>
+             <p>
+      Cross-platform mobile app development using Flutter and React Native. My AI-Based Diet Planner demonstrates 
+      complex integrations with Firebase, health APIs, and machine learning (KNN algorithm) to deliver personalized 
+      wellness solutions with push notification systems.
+             </p>
+          </div>
+        </div>
+
+        <div class="services-box">
+          <div class="services-info">
+            <i class="bx bx-check-shield"></i>
+            <h4>Quality Assurance</h4>
+            <p>
+      Comprehensive testing services including test automation and performance testing. My technical exposure includes 
+      developing the Productivity Monitoring System with emphasis on data accuracy and system reliability, 
+      ensuring applications meet both functional and non-functional requirements.
+            </p>
+          </div>
+        </div>
+
+        <div class="services-box">
+          <div class="services-info">
+            <i class="bx bx-brain"></i> <!-- Using brain icon for AI -->
+            <h4>AI/ML Solutions</h4>
+            <p>
+      Building intelligent systems powered by machine learning algorithms. I develop solutions like personalized recommendation 
+      systems (KNN algorithm in my Diet Planner), data analytics dashboards, and predictive models using Python, Scikit-learn, 
+      . My academic background in AI/ML and Big Data Analytics ensures technically sound implementations.
+            </p>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <section class="projects" id="projects">
+      <h2 class="heading">Projects</h2>
+      <div class="projects-box">
+
+        <div class="project-card">
+          <img src="AI-Based personalized diet planner for office workers.png" alt="">
+          <h3> AI-Based Personalized Diet Planner For Office Workers</h3>
+          <p>
+            Cross-platform mobile app for office workers that provides AI-powered personalized diet plans, meal recommendations, progress tracking, and activity reminders to support a healthy lifestyle.
+          </p>
+          <div class="btn">Review Project</div>
+        </div>
+
+        <div class="project-card">
+          <img src="Library Management System.png" alt="">
+          <h3>Library Management System (BookNest)</h3>
+          <p>
+            Full-stack web app for library management using React, Node.js, Express, and MongoDB. Supports book catalog, user auth (JWT), role-based access, real-time notifications, AWS S3 image storage, and CI/CD with GitHub Actions.
+          </p>
+          <div class="btn">Review Project</div>
+        </div>
+
+        <div class="project-card">
+          <img src="HCI Interactive Furniture Selection Application.png" alt="">
+          <h3>Furniture Selection Application</h3>
+          <p>
+            Interactive Java Swing app designed with HCI principles, Figma prototypes, and Agile (Scrum). Included usability testing and iterative refinements to create a user-friendly, visually appealing software solution.
+          </p>
+          <div class="btn">Review Project</div>
+        </div>
+
+        <div class="project-card">
+          <img src="Productivity Monitoring System.png" alt="">
+          <h3>Productivity Monitoring System</h3>
+          <p>
+            Developed web application to track and analyze employee productivity. Monitored activities, provided
+ reports, and ensured user privacy. 
+          </p>
+          <div class="btn">Review Project</div>
+        </div>
+
+        <div class="project-card">
+          <img src="Campus Connect Accommodation Portal.png" alt="">
+          <h3>Campus Connect Accommodation Portal</h3>
+          <p>
+            Developed a web app for NSBM Green University to help students find and reserve accommodations easily. Features include property listings, booking management, warden oversight, and a user-friendly interface designed to improve the student housing experience.
+          <div class="btn">Review Project</div>
+        </div>
+
+        <div class="project-card">
+          <img src="Smart Marine Aquarium Monitoring System.jpg" alt="">
+          <h3>Marine Aquarium Monitoring System</h3>
+          <p>
+             Developed aquarium monitoring system with sensors and a web/mobile app. 
+          </p>
+          <div class="btn">Review Project</div>
+        </div>
+
+      </div> 
+    </section>
+    <section class="contact" id="contact">
+      <h2 class="heading">Contact <span>Me</span>
+      </h2>
+
+      <form action="#">
+        <div class="input-group">
+
+          <div class="input-box">
+            <input type="text"  
+            placeholder="Full Name">
+            <input type="email" 
+            placeholder="Email">
+          </div>
+
+          <div class="input-box">
+            <input type="number" 
+            placeholder="Phone Number">
+            <input type="text" 
+            placeholder="Subject" >
+          </div>
+        </div>
+
+        <div class="input-group-2">
+          <textarea name="" id="" 
+          placeholder="Your Message"  cols="30" rows="10" ></textarea>
+          <input type="submit" value="Send Message" class="btn">
+        </div>
+
+      </form>
+    </section>
+
+    <footer class="footer">
+      <div class="social-icons">
+        <a href="#">
+          <i class="bx bxl-github"></i>
+        </a>
+        <a href="#">
+          <i class="bx bxl-linkedin-square"></i>
+        </a>
+        <a href="#">
+          <i class="bx bxl-instagram-alt"></i>
+        </a>
+        <a href="#">
+          <i class="bx bxl-facebook"></i>
+        </a>
+      </div>
+      <ul class="list">
+        <li>
+          <a href="#">FAQ</a>
+        </li>
+        <li>
+          <a href="#services">Services</a>
+        </li>
+        <li>
+          <a href="#about">About Me</a>
+        </li>
+        <li>
+          <a href="#projects">Projects</a>
+        </li>
+        <li>
+          <a href="#contact">Contact</a>
+        </li>
+      </ul>
+
+      <p class="copyright">
+        2025 Upeksha Amandi | All Rights Reserved
+      </p>
+    </footer>
+
+    <script src="script.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+
+    <!-- Your page content -->
+  <script src="script.js"></script> <!-- This should be last -->
+
+  </body>
+</html>
