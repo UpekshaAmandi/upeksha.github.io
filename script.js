@@ -69,12 +69,12 @@ document.addEventListener('DOMContentLoaded', function() {
         e.preventDefault(); // Prevent default link behavior
         
         // Replace with the actual path to your CV file
-        const cvFilePath = 'UpekshaAmandi-CV.pdf';
+        const cvFilePath = 'CV-Upeksha Amandi.pdf';
         
         // Create a temporary anchor element to trigger download
         const downloadLink = document.createElement('a');
         downloadLink.href = cvFilePath;
-        downloadLink.download = 'UpekshaAmandi-CV.pdf'; // The filename for the downloaded file
+        downloadLink.download = 'CV-Upeksha Amandi.pdf'; // The filename for the downloaded file
         document.body.appendChild(downloadLink);
         downloadLink.click();
         document.body.removeChild(downloadLink);
